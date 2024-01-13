@@ -1,6 +1,6 @@
 @charset "UTF-8";
-@import url('../../css');
-@import url('../../css-1');
+@import url('css-1');
+@import url('css-2');
 /*
 01. Theme Typo
 02. Header
@@ -307,6 +307,7 @@ address { font-style: italic; }
     float: left;
     width: 100%;
     padding: 24px 0px;
+    max-width: 150px;
 }
 /* Navigation */
 .navbar {
@@ -3452,4 +3453,6 @@ blockquote span {
 }
 .moverspackers-contact-form ul li.full-form,.comment-respond form p.full-form{ width: 100%; }
 .comment-respond form p input[type="submit"] { float: left; }
+
+
 
